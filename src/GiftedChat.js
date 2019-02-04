@@ -294,7 +294,7 @@ class GiftedChat extends React.Component {
   renderMessages() {
     return (
       <div style={{
-        height: this.state.messagesContainerHeight,
+        minHeight: 0,
         display: 'flex'
       }}>
         <MessageContainer
